@@ -1,0 +1,39 @@
+Week 1 – Data Understanding & Import
+
+1. Objective
+
+The purpose of Week 1 is to understand the structure of the dataset, identify correct data types, and import the dataset into both MySQL Workbench and Databricks for further analysis.
+
+---
+
+ 2. Dataset Overview
+
+**File:** `Student_Marks.csv`
+**Rows:** *(to be filled after import)*
+
+Columns
+
+| Column Name    | Description                          | Data Type      |
+| -------------- | ------------------------------------ | -------------- |
+| number_courses | Number of courses taken by a student | Integer (INT)  |
+| time_study     | Hours spent studying                 | Decimal (10,3) |
+| marks          | Final score achieved                 | Decimal (10,3) |
+
+This dataset contains numerical variables only and is suitable for statistical analysis and predictive modeling.
+
+---
+
+ 3. Insights From Week 1
+
+* The dataset is clean and entirely numerical, with no categorical fields.
+* The dataset does not require a primary key, which is typical for simple academic data.
+* Chosen data types (INT and DECIMAL) are appropriate for the fields.
+* Both MySQL Workbench and Databricks have been successfully set up for the project.
+* GitHub repository now includes:
+
+  * SQL file
+  * Dataset
+  * Documentation (this file)
+
+---
+
